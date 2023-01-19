@@ -1,0 +1,10 @@
+.colores {
+    color: burlywood;
+}
+.color-rgb {
+    color: rgb(200, 100, 200);
+}
+
+.color-rgba {
+    color: rgba(100, 2, 45, 0,50);
+}

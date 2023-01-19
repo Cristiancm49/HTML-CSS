@@ -1,0 +1,19 @@
+h1 {
+    color: aqua;
+}
+
+p {
+    color:blueviolet;
+    font-size: 16px;
+}
+
+#primera-noticia {
+    color: goldenrod;
+}
+#segunda-noticia {
+    color: gray;
+}
+.encabezado {
+    font-size: 24pt;
+    text-transform: uppercase;
+}

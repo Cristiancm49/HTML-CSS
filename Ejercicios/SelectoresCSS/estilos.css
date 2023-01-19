@@ -1,0 +1,11 @@
+html {
+    background-image: url('/HTMLS-CSS/multimedia/fondo1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: cyan;
+}
+
+#elemento-1 {
+    color: red;
+    font-size: 2rem;
+}

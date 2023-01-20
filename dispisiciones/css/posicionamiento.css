@@ -1,0 +1,46 @@
+div {
+    border: 1px solid red;
+    padding: 5px;
+    margin: 5px;
+    background-color: white ;
+}
+
+/* Posicionamiento relativo se posiciona en relacion 
+al posicionamiento origina */
+.relative {
+    position: relative;
+    left: 70px;
+}
+
+
+/* Pisicionamiento fijo se posiciona en relacion a la 
+pantalla */
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    background-color: aqua;
+
+}
+
+/* Posicionamiento absoluto */
+.absolute {
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+}
+
+.relative.contenedor {
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+}
+
+
+/* Movimiento pegajoso al hacer scroll el mantiene su posicion */
+.sticky {
+    position: sticky;
+    background-color: aqua;
+    color: blue;
+    top: 0px;
+    z-index: 2;
+}

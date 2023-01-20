@@ -7,5 +7,9 @@ html {
 
 #elemento-1 {
     color: red;
+    
+}
+
+#lista-1, elemento-1 {
     font-size: 2rem;
 }

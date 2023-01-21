@@ -1,0 +1,30 @@
+.flex {
+    flex-direction: column;
+    background-color: yellow;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: nowrap; */
+}
+
+.contenido-1 {
+    background-color: goldenrod;
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.contenido-2 {
+    background-color: hotpink;
+    height: 200px;
+    width: 100px;
+    border: 1px solid rebeccapurple;
+}
+
+.contenido-3 {
+    background-color: teal;
+    height: 200px;
+    width: 100px;
+    border: 1px solid green;
+}

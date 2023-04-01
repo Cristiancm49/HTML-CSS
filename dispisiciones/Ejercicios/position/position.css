@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.contenido {
+    position: relative;
+    display: flex;
+    background-color: blue;
+    height: 250px;
+    width: 250px;
+    
+}
+
+.cabeza {
+    position: absolute;
+    left: 19%;
+    top: -8%;
+    background-color: antiquewhite;
+    width: 140px;
+    height: 40px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.cabeza h3 {
+    margin: 0;
+}
+
+.cuerpo {
+    background-color: red;
+    width: 100%;
+    place-self: center;
+    padding: 0px 10px 0px 10px;
+    color: aliceblue;
+}

@@ -1,0 +1,43 @@
+html {
+    background-color: black;
+    padding: 0;
+    margin: 20px;
+}
+
+div {
+    color: aliceblue;
+}
+
+h1 {
+    color: aliceblue;
+    
+}
+
+.caso-1 {
+    margin: 10px;
+    border: 3px solid;
+    padding: 10px;
+    width: 100%;
+}
+
+.caso-2 {
+    margin: 10px;
+    border: 3px solid;
+    padding: 10px;
+    width: 50%;
+}
+
+.px {
+    background-color: aqua;
+    width: 200px;
+}
+
+.porcentaje {
+    background-color: blue;
+    width: 50%;
+}
+
+.view {
+    background-color: blueviolet;
+    width: 50vw;
+}

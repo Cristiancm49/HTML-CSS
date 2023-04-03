@@ -1,0 +1,22 @@
+h1 {
+    color: brown;
+    font-size: 4rem;
+}
+
+p {
+    color: blue;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 350px) {
+    h1 {
+        color: aqua;
+    }
+}
+
+@media (min-height: 300px) {
+    p {
+       color: brown; 
+    }
+    
+}

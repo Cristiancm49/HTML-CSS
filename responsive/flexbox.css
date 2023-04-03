@@ -1,0 +1,22 @@
+.contenedor {
+    padding: 0.5rem;
+    background-color: aquamarine;
+    display: flex;
+    gap: 0.5rem;
+    min-height: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-wrap: nowrap;
+    
+}
+
+.item {
+    background-color: blue;
+    padding: 0.2rem;
+    color: aliceblue;
+}
+
+.item3 {
+    align-self: baseline;
+}

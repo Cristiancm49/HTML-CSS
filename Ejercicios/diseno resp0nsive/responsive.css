@@ -1,0 +1,68 @@
+html {
+    background-color: darkgray;
+}
+
+.seccion {
+    background-color: darkgray;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+ .img1 {
+    width: 100px;
+    height: 100px;
+ }
+
+ .boton {
+    border: none;
+    border-radius: 5px;
+    padding: 4px 4px;
+    font-size: 12px;
+    background-color: rgb(37, 68, 101);
+    color: rgb(235, 218, 218);transition: background-color 0.3s, border 0.2s, box-shadow 0.4s;
+}
+
+.boton:hover {
+    background-color: cadetblue;
+    box-shadow: 0 1px 1px rgb(172, 239, 28) ;
+}
+
+ .contenedor {
+    display: flex;
+    flex-direction: column-reverse;
+ }
+
+.seccion-1 {
+    display: flex;
+    padding: 10px;
+    gap: 4px;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 641px) { 
+    .contenedor {
+        display: grid;
+        gap: 4px;
+        grid-template-columns: 17% 83%;
+    }
+    
+
+    
+    .seccion-1 {
+        display: flex;
+        padding: 10px;
+        gap: 4px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        min-height: 100vh;
+    
+    }
+    
+
+    
+    
+}
